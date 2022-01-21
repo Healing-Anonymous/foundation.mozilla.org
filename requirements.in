@@ -26,7 +26,7 @@ wagtail-airtable
 https://releases.wagtail.org/nightly/dist/wagtail-2.16.dev20220119-py3-none-any.whl
 wagtail-factories
 https://zerolab.org/_dumps/wagtail_localize-1.0.2a1-py3-none-any.whl
--e git+https://github.com/wagtail/wagtail-localize-git.git@chore/use-repository-default-branch#egg=wagtail_localize_git
+-e git+https://github.com/wagtail/wagtail-localize-git.git@main#egg=wagtail_localize_git
 wagtail-inventory
 wagtailmedia
 wagtail-metadata

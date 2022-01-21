@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
--e git+https://github.com/wagtail/wagtail-localize-git.git@chore/use-repository-default-branch#egg=wagtail_localize_git
+-e git+https://github.com/wagtail/wagtail-localize-git.git@main#egg=wagtail_localize_git
     # via -r requirements.in
 airtable-python-wrapper==0.13.0
     # via wagtail-airtable
