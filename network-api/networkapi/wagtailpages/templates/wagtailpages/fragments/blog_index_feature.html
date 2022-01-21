@@ -26,7 +26,7 @@
     {% if blog.author %}
       {% blocktrans with author=blog.author %}by {{author}}{% endblocktrans %}
     {% endif %}
-    {% if blog.localized.first_published_at %} {% blocktrans with date=blog.localized.first_published_at|date:"DATE_FORMAT" %}on {{date}}{% endblocktrans %}{% else %}not published yet{% endif %}
+    {% if blog.first_published_at %} {% blocktrans with date=blog.first_published_at|date:"DATE_FORMAT" %}on {{date}}{% endblocktrans %}{% else %}not published yet{% endif %}
   </p>
   <p>{{blog.localized.search_description}}</p>
 </div>
